@@ -3,7 +3,7 @@ import CV from "../Files/CV.pdf";
 
 const Home = () => {
   return (
-    <>
+    
       <section id="home">
         <div className="nav-link home">
           <div className="slide">
@@ -18,8 +18,8 @@ const Home = () => {
           <br />
           
         </div>
-      </section>
-    </>
+       </section>
+    
   );
 };
 

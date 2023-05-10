@@ -114,7 +114,8 @@ section {
   position: relative;
   height: 100vh;
   width: 100%;
-  background-image: url("./Files/cover.jpg");
+  /* background-image: url("./Files/cover.jpg"); */
+  background-color: var(--bg-color);
 
   background-size: cover;
   background-position: center;
@@ -654,7 +655,7 @@ form textarea {
   width: 100%;
   padding: 14px;
   background-color: white;
-  color: var(--text-color);
+  color: black;
   border: none;
   outline: none;
   font-size: 15px;
@@ -683,13 +684,14 @@ form textarea {
 
 /* End */
 .end {
-  padding: 20px 15%;
+  padding: 10px 15%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  /* background: var(--bg-color); */
+  background: var(--bg-color);
+  border: 1px solid black;
 }
 
 .last p {
