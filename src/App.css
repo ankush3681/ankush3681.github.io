@@ -11,7 +11,7 @@
 :root {
   /* --bg-color: #2a2a2a; */
   /* --bg-color: #273c4f; */
-  --bg-color: #1b2d39;
+  --bg-color: #294557;
   --second-bg-color: #202020;
   --text-color: #fff;
   --second-color: #fff;
@@ -25,7 +25,7 @@
 
 .body {
   /* background: var(--bg-color); */
-  background: var(--second-bg-color);
+  background-color: var(--bg-color);
   /* background-image: url("./assests/giphy.gif"); */
   color: var(--text-color);
 }
@@ -291,7 +291,7 @@ header.sticky {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  /* background: var(--bg-color); */
+  background: var(--bg-color);
 
   /* background-image: url("./assests/giphy.gif"); */
 
@@ -334,6 +334,12 @@ header.sticky {
 
 /* skills section */
 #skills {
+  /* background: var(--bg-color); */
+  background: var(--second-bg-color);
+  /* background-image: url("./assests/giphy.gif"); */
+
+}
+#tools {
   /* background: var(--bg-color); */
   background: var(--second-bg-color);
   /* background-image: url("./assests/giphy.gif"); */
@@ -423,6 +429,12 @@ header.sticky {
 }
 
 /* github section -------------- */
+
+/* #githubs{
+  background-color: var(--bg-color);
+} */
+
+
 .max-width {
   width: 80%;
   margin: auto;
@@ -442,6 +454,10 @@ header.sticky {
   height: 195px;
   margin-top: -10%;
 
+}
+
+#projects{
+  background-color: var(--bg-color);
 }
 
 /* Projects */
@@ -563,7 +579,7 @@ header.sticky {
 
 #contact {
 
-  /* background: var(--second-bg-color); */
+  background: var(--bg-color);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -632,11 +648,12 @@ header.sticky {
   position: relative;
 }
 
+
 .contact-form form input,
 form textarea {
   width: 100%;
   padding: 14px;
-  background: var(--bg-color);
+  background-color: white;
   color: var(--text-color);
   border: none;
   outline: none;

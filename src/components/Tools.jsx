@@ -11,7 +11,7 @@ import { TfiWrite } from "react-icons/tfi";
 const Tools = () => {
   return (
     <>
-      <section id="skills">
+      <section id="tools">
         <div className="main-text">
           <h2>
             <span>Known </span>Tools
