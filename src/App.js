@@ -8,17 +8,19 @@ import Skills from './components/Skills';
 import Tools from './components/Tools';
 import Project from './components/Project';
 import End from './components/end';
+import Github from './components/github';
 
 function App() {
   return (
     <div className="App">
-      <About/>
-      <Contact/>
-      <Home/>
       <Header/>
+      <Home/>
+      <About/>
       <Skills/>
       <Tools/>
+      <Github/>
       <Project/>
+      <Contact/>
       <End/>
     </div>
   );

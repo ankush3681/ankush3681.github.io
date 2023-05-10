@@ -114,7 +114,7 @@ section {
   position: relative;
   height: 100vh;
   width: 100%;
-  /* background-image: url("./Files/cover.jpg"); */
+  background-image: url("./Files/cover.jpg");
 
   background-size: cover;
   background-position: center;
