@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import CV from "../Files/CV.pdf";
+import CV from "../Files/Ankush-Kumar-Resume.pdf";
 import DropDown from "./Dropdown";
 
 const Header = () => {
@@ -34,12 +34,6 @@ const Header = () => {
             <a href="#skills" onClick={() => setActiveNav("#skills")}>
               {" "}
               Skills
-            </a>
-          </li>
-          <li>
-            <a href="#tools" onClick={() => setActiveNav("#tools")}>
-              {" "}
-              Tools
             </a>
           </li>
           <li>
