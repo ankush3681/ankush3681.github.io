@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import CV from "../Files/Ankush-Kumar-Resume.pdf";
 import DropDown from "./Dropdown";
+import {AiOutlineHome} from "react-icons/ai";
 
 const Header = () => {
   const [activeNav, setActiveNav] = useState("#");
@@ -72,7 +73,7 @@ const Header = () => {
         <div id="menu-icon">
           <DropDown
             options={[
-              <a href="#home">Home</a>,
+              <a href="#home"><AiOutlineHome/></a>,
               <a href="#about">About</a>,
               <a href="#skills">Skills</a>,
               <a href="#tools">Tools</a>,

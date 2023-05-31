@@ -87,7 +87,7 @@ const Skills = () => {
               />
             </div>
             <h3 className="skills-card-name" style={{ color: "#009cfe" }}>
-              Typescript
+              MongodB
             </h3>
           </div>
 
@@ -98,7 +98,7 @@ const Skills = () => {
               />
             </div>
             <h3 className="skills-card-name" style={{ color: "#009cfe" }}>
-              DSA
+              Express
             </h3>
           </div>
         </div>

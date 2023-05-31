@@ -9,24 +9,18 @@
 }
 
 :root {
-  /* --bg-color: #2a2a2a; */
-  /* --bg-color: #273c4f; */
   --bg-color: #294557;
   --second-bg-color: #202020;
   --text-color: #fff;
   --second-color: #fff;
-  /* --main-color: #61dc14; */
   --main-color: #009cfe;
-  /* --main-color: #25D366; */
   --big-font: 5rem;
   --h2-font: 3rem;
   --p-font: 1.1rem;
 }
 
 .body {
-  /* background: var(--bg-color); */
   background-color: var(--bg-color);
-  /* background-image: url("./assests/giphy.gif"); */
   color: var(--text-color);
 }
 
@@ -54,8 +48,7 @@ header {
 
 span {
   color: var(--main-color);
-  /* color: #3bf4cf; */
-  /* background-color: black; */
+
 }
 
 .navlist {
@@ -71,7 +64,6 @@ span {
 }
 
 .navlist a:hover {
-  /* color: var(--main-color); */
   color: var(--text-color);
 }
 
@@ -80,19 +72,14 @@ span {
   text-decoration: underline;
 }
 
-/* .navlist a.active {
-  color: var(--main-color);
-  color: white;
-} */
+
 
 #nav-menu {
-  /* background: var(--bg-color); */
   background-color: black;
 }
 
 #menu-icon {
   font-size: 35px;
-  /* color: var(--text-color); */
   color: var(--main-color);
   z-index: 10001;
   cursor: pointer;
@@ -109,12 +96,10 @@ section {
 /* Home Section */
 
 #home {
-  /* margin-top: 6%; */
   margin-top: 1%;
   position: relative;
   height: 100vh;
   width: 100%;
-  /* background-image: url("./Files/cover.jpg"); */
   background-color: var(--bg-color);
 
   background-size: cover;
@@ -153,7 +138,6 @@ section {
 #user-detail-name {
   overflow: hidden;
   white-space: nowrap;
-  /* border-right: 2px solid; */
   width: 0;
   animation: typing;
   animation-duration: 4.5s;
@@ -162,7 +146,6 @@ section {
 }
 
 #user-detail-skill {
-  /* transform: skew(20deg); */
   overflow: hidden;
   white-space: nowrap;
   border-right: 2px solid;
@@ -230,6 +213,8 @@ section {
 #resume-button-1 {
   background: var(--main-color);
   color: var(--text-color);
+  border-radius: 10px;
+  padding:5px 0;
 }
 
 #resume-link-2 {
@@ -251,8 +236,8 @@ section {
 
 #resume-link-1 {
   /* border: 0px solid white; */
-  background: var(--main-color);
-  color: var(--text-color);
+  /* background: var(--main-color); */
+  color:black;
 }
 
 #user-detail-skill {
@@ -286,20 +271,17 @@ header.sticky {
 
 #about {
   border: 0px solid green;
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr); */
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
   background: var(--bg-color);
 
-  /* background-image: url("./assests/giphy.gif"); */
 
 }
 
 #about div:nth-child(2) {
-  /* border: 1px solid red; */
   width: 60%;
 }
 
@@ -335,15 +317,11 @@ header.sticky {
 
 /* skills section */
 #skills {
-  /* background: var(--bg-color); */
   background: var(--second-bg-color);
-  /* background-image: url("./assests/giphy.gif"); */
 
 }
 #tools {
-  /* background: var(--bg-color); */
   background: var(--second-bg-color);
-  /* background-image: url("./assests/giphy.gif"); */
 
 }
 
@@ -388,10 +366,7 @@ header.sticky {
   margin-bottom: 20px;
 }
 
-/* #icon{
-  border: 0px solid red;
-  margin-left: 45%;
-} */
+
 .skills-card h3 {
   font-size: 24px;
   font-weight: 600;
@@ -433,6 +408,7 @@ header.sticky {
 
 /* #githubs{
   background-color: var(--bg-color);
+  width:100%;
 } */
 
 
@@ -462,10 +438,7 @@ header.sticky {
 }
 
 /* Projects */
-/* #projects {
-  background-image: url("./assests/giphy.gif");
 
-} */
 
 #nav-link-projects {
   display: grid;
@@ -480,11 +453,9 @@ header.sticky {
   overflow: hidden;
   border-radius: 8px;
   cursor: pointer;
-  /* border: 1px solid red; */
   padding: 3%;
   box-shadow: var(--text-color) 0px 5px 15px;
 
-  /* height: 500px; */
 }
 
 .project-card img {
@@ -500,23 +471,7 @@ header.sticky {
   align-items: center;
 }
 
-/* .layer {
-  width: 100%;
-  height: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgb(47, 220, 20));
-  position: absolute;
-  border-radius: 8px;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 0 40px;
-  transition: height 0.5s;
-} */
+
 
 .layer h5 {
   font-size: 20px;
@@ -558,7 +513,6 @@ header.sticky {
   width: 80%;
   margin: auto;
   margin-top: 50px;
-  /* background: var(--second-bg-color); */
 
 }
 
@@ -711,9 +665,7 @@ form textarea {
 
 @media (max-width:1480px) {
 
-  /* #home {
-    height: 60vh;
-  } */
+ 
 
   header {
     padding: 12px 2.5%;
@@ -736,8 +688,6 @@ form textarea {
 
   #calendar {
     width: 100%;
-    /* margin: auto;
-        margin-top: 50px; */
   }
 
   .ht1 {
