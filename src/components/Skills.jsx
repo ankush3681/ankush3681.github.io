@@ -2,11 +2,10 @@ import React from "react";
 import { FaReact } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import { AiOutlineHtml5 } from "react-icons/ai";
-import { TbBrandCss3 } from "react-icons/tb";
+import { TbBrandCss3,TbApi,TbBrandMatrix } from "react-icons/tb";
 import { SiRedux } from "react-icons/si";
-import { DiNodejs } from "react-icons/di";
-import { SiTypescript } from "react-icons/si";
-import { TfiWrite } from "react-icons/tfi";
+import { BsFillBootstrapFill,BsGit  } from "react-icons/bs";
+import { SiChakraui } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -20,26 +19,6 @@ const Skills = () => {
         </div>
 
         <div className="nav-link skills" id="skills-part">
-          <div className="skills-card">
-            <div className="skills-card-img">
-              <FaReact
-                style={{ height: "50px", width: "50px", margin: "auto" }}
-              />
-            </div>
-            <h3 className="skills-card-name" style={{ color: "#009cfe" }}>
-              React
-            </h3>
-          </div>
-          <div className="skills-card">
-            <div className="skills-card-img">
-              <TbBrandJavascript
-                style={{ height: "50px", width: "50px", margin: "auto" }}
-              />
-            </div>
-            <h3 className="skills-card-name" style={{ color: "#009cfe" }}>
-              JavaScript
-            </h3>
-          </div>
           <div className="skills-card">
             <div className="skills-card-img">
               <AiOutlineHtml5
@@ -61,6 +40,26 @@ const Skills = () => {
             </h3>
           </div>
           <div className="skills-card">
+            <div className="skills-card-img">
+              <TbBrandJavascript
+                style={{ height: "50px", width: "50px", margin: "auto" }}
+              />
+            </div>
+            <h3 className="skills-card-name" style={{ color: "#009cfe" }}>
+              JavaScript 
+            </h3>
+          </div>
+          <div className="skills-card">
+            <div className="skills-card-img">
+              <FaReact
+                style={{ height: "50px", width: "50px", margin: "auto" }}
+              />
+            </div>
+            <h3 className="skills-card-name" style={{ color: "#009cfe" }}>
+              React 
+            </h3>
+          </div>
+          <div className="skills-card">
             <div className="skills-card-img" style={{ textAlign: "center" }}>
               <SiRedux
                 style={{ height: "50px", width: "50px", margin: "auto" }}
@@ -72,33 +71,53 @@ const Skills = () => {
           </div>
           <div className="skills-card">
             <div className="skills-card-img">
-              <DiNodejs
+              <TbBrandMatrix
                 style={{ height: "50px", width: "50px", margin: "auto" }}
               />
             </div>
             <h3 className="skills-card-name" style={{ color: "#009cfe" }}>
-              Node JS
+              Material UI
             </h3>
           </div>
           <div className="skills-card">
             <div className="skills-card-img">
-              <SiTypescript
+              <SiChakraui
                 style={{ height: "50px", width: "50px", margin: "auto" }}
               />
             </div>
             <h3 className="skills-card-name" style={{ color: "#009cfe" }}>
-              MongodB
+              Chakra UI
+            </h3>
+          </div>
+          <div className="skills-card">
+            <div className="skills-card-img">
+              <BsFillBootstrapFill
+                style={{ height: "50px", width: "50px", margin: "auto" }}
+              />
+            </div>
+            <h3 className="skills-card-name" style={{ color: "#009cfe" }}>
+              Bootstrap
             </h3>
           </div>
 
           <div className="skills-card">
             <div className="skills-card-img">
-              <TfiWrite
+              <BsGit
                 style={{ height: "50px", width: "50px", margin: "auto" }}
               />
             </div>
             <h3 className="skills-card-name" style={{ color: "#009cfe" }}>
-              Express
+              Git
+            </h3>
+          </div>
+          <div className="skills-card">
+            <div className="skills-card-img">
+              <TbApi
+                style={{ height: "50px", width: "50px", margin: "auto" }}
+              />
+            </div>
+            <h3 className="skills-card-name" style={{ color: "#009cfe" }}>
+              Rest APIs
             </h3>
           </div>
         </div>

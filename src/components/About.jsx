@@ -36,7 +36,7 @@ const About = () => {
               download
               target="_blank"
               id="resume-link-2"
-              onClick={()=>window.open("https://drive.google.com/file/d/1XSV9WNKbOaSwh-9Z0mjbUnr8J0s9-5-g/view?usp=drive_link")}
+              onClick={()=>window.open("https://drive.google.com/file/d/1xsWeIoOuzGnCPDy94uHUa4PrMQKtj7mv/view?usp=drive_link")}
 
             >
               <span>

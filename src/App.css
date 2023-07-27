@@ -6,6 +6,7 @@
   text-decoration: none;
   list-style: none;
   scroll-behavior: smooth;
+  /* background-color: #294557; */
 }
 
 :root {
@@ -97,6 +98,7 @@ section {
 
 #home {
   margin-top: 1%;
+  margin-bottom: 5px;
   position: relative;
   height: 100vh;
   width: 100%;
@@ -271,7 +273,7 @@ header.sticky {
 
 #about {
   border: 0px solid green;
-
+  /* margin-bottom: 5px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -412,10 +414,12 @@ header.sticky {
 } */
 
 
-.max-width {
-  width: 80%;
-  margin: auto;
-  margin-top: 50px;
+
+#githubs {
+  background-color: #294557;
+  width: 100%;
+  padding: 2rem;
+  margin: 5px 0 5px 0;
 }
 
 
@@ -435,6 +439,7 @@ header.sticky {
 
 #projects{
   background-color: var(--bg-color);
+  margin-bottom: 5px;
 }
 
 /* Projects */
