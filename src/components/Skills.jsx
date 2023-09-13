@@ -11,11 +11,10 @@ const Skills = () => {
   return (
     <>
       <section id="skills">
-        <div className="main-text">
+        <div className="skill-main-text">
           <h2>
-            <span>My </span>Skills
+          My <span>Skills</span>
           </h2>
-          {/* <p style={{ marginTop: "10px" }}>What I am Expert In ?</p> */}
         </div>
 
         <div className="nav-link skills" id="skills-part">

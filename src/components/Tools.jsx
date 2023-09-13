@@ -11,7 +11,7 @@ const Tools = () => {
     return (
         <>
             <section id="tools">
-                <div className="main-text">
+                <div className="tool-main-text">
                     <h2>
                         My <span>Tools</span>
                     </h2>
@@ -55,7 +55,7 @@ const Tools = () => {
                             />
                         </div>
                         <h3 className="tools-card-name" style={{ color: "#009cfe" }}>
-                            Git & Github
+                            Github
                         </h3>
                     </div>
                     <div className="tools-card">
