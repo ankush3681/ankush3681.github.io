@@ -76,7 +76,6 @@ const Header = () => {
               <a href="#home"><AiOutlineHome/></a>,
               <a href="#about">About</a>,
               <a href="#skills">Skills</a>,
-              <a href="#tools">Tools</a>,
               <a href="#projects">Projects</a>,
               <a href="#githubs">GitHub</a>,
               <a href="#contact">Contact</a>,
