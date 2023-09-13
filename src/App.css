@@ -320,11 +320,6 @@ header.sticky {
 /* skills section */
 #skills {
   background: var(--second-bg-color);
-
-}
-#tools {
-  background: var(--second-bg-color);
-
 }
 
 .main-text {
@@ -356,11 +351,8 @@ header.sticky {
   padding: 35px 25px;
   border-radius: 8px;
   transition: all .45s ease;
-  /* justify-content: space-evenly; */
   text-align: center;
   justify-content: center;
-
-
 }
 
 .skills-card-img i {
@@ -402,6 +394,56 @@ header.sticky {
 }
 
 .skills-card:hover {
+  transform: translateY(-8px);
+  cursor: pointer;
+}
+
+
+
+/* Tools section */
+
+#tools {
+  background: var(--second-bg-color);
+}
+
+#tools-part {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.tools-card {
+  background: var(--bg-color);
+  padding: 35px 25px;
+  border-radius: 8px;
+  transition: all .45s ease;
+  text-align: center;
+  justify-content: center;
+}
+
+.tools-card-img i {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.tools-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.tools-card p {
+  color: var(--second-color);
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.tools-card:hover {
   transform: translateY(-8px);
   cursor: pointer;
 }
