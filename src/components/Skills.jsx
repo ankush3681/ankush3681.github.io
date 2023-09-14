@@ -2,10 +2,10 @@ import React from "react";
 import { FaReact } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import { AiOutlineHtml5 } from "react-icons/ai";
-import { TbBrandCss3,TbApi,TbBrandMatrix } from "react-icons/tb";
+import { TbBrandCss3,TbBrandTypescript } from "react-icons/tb";
 import { SiRedux } from "react-icons/si";
-import { BsFillBootstrapFill,BsGit  } from "react-icons/bs";
-import { SiChakraui } from "react-icons/si";
+import { SiChakraui,SiExpress,SiMongodb,SiNodedotjs } from "react-icons/si";
+// import { DiNodejs } from "react-icons/di";
 
 const Skills = () => {
   return (
@@ -88,37 +88,47 @@ const Skills = () => {
               Chakra UI
             </h3>
           </div>
-          {/* <div className="skills-card">
+           <div className="skills-card">
             <div className="skills-card-img">
-              <BsFillBootstrapFill
+              <TbBrandTypescript
                 style={{ height: "50px", width: "50px", margin: "auto" }}
               />
             </div>
             <h3 className="skills-card-name" style={{ color: "#009cfe" }}>
-              Bootstrap
+              Typescript
             </h3>
-          </div> */}
+          </div> 
 
-          {/* <div className="skills-card">
+           <div className="skills-card">
             <div className="skills-card-img">
-              <BsGit
+              <SiNodedotjs
+                style={{ height: "50px", width: "50px", margin: "auto",fontSize:"larger" }}
+              />
+            </div>
+            <h3 className="skills-card-name" style={{ color: "#009cfe" }}>
+              Node
+            </h3>
+          </div> 
+           <div className="skills-card">
+            <div className="skills-card-img">
+              <SiExpress
                 style={{ height: "50px", width: "50px", margin: "auto" }}
               />
             </div>
             <h3 className="skills-card-name" style={{ color: "#009cfe" }}>
-              Git
+              Express
             </h3>
-          </div> */}
-          {/* <div className="skills-card">
+          </div> 
+          <div className="skills-card">
             <div className="skills-card-img">
-              <TbApi
+              <SiMongodb
                 style={{ height: "50px", width: "50px", margin: "auto" }}
               />
             </div>
             <h3 className="skills-card-name" style={{ color: "#009cfe" }}>
-              Rest APIs
+              Mongodb
             </h3>
-          </div> */}
+          </div> 
         </div>
       </section>
     </>

@@ -21,7 +21,7 @@ const About = () => {
 
           <p id="user-detail-intro" style={{ letterSpacing: "1px", color: "white", padding: "5px" }}>
             An Innovative and Aspiring Full Stack Web Developer.
-            Proficient in HTML, CSS, and Javascript with 1200+ hours of
+            Proficient in HTML, CSS, Javascript, React, Redux, Chakra UI, Node, Express, Mongodb with 1200+ hours of
             coding experience, good interpersonal skills, and hands-on
             experience in building individual and collaborative projects.
             Looking forward to joining a progressive organization with

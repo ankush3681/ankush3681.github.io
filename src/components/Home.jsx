@@ -11,7 +11,7 @@ const Home = () => {
           </div>
           <h1 id="user-detail-name"><span style={{ backgroundColor: "transparent" }}>Ankush</span> Kumar</h1>
           <h3 id="user-detail-skill">
-            I am a React <span style={{ backgroundColor: "transparent" }}>Developer.</span>
+            I am a MERN <span style={{ backgroundColor: "transparent" }}>Developer.</span>
           </h3>
 
           <br />
