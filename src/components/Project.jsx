@@ -10,11 +10,11 @@ const Project = () => {
     return (
         <>
             <section id="projects">
-                <div className="main-text">
+                <div className="project-main-text">
                     <h2>
                         <span>Projects</span>
                     </h2>
-                    <p style={{ marginTop: "2%" }}>Some of the things that i have built...</p>
+                    <p style={{ marginTop: "2%",fontSize:"larger",color:'white'}}>Some of the things that i have built...</p>
                 </div>
 
 

@@ -68,7 +68,7 @@ const Skills = () => {
               Redux
             </h3>
           </div>
-          <div className="skills-card">
+          {/* <div className="skills-card">
             <div className="skills-card-img">
               <TbBrandMatrix
                 style={{ height: "50px", width: "50px", margin: "auto" }}
@@ -77,7 +77,7 @@ const Skills = () => {
             <h3 className="skills-card-name" style={{ color: "#009cfe" }}>
               Material UI
             </h3>
-          </div>
+          </div> */}
           <div className="skills-card">
             <div className="skills-card-img">
               <SiChakraui
@@ -88,7 +88,7 @@ const Skills = () => {
               Chakra UI
             </h3>
           </div>
-          <div className="skills-card">
+          {/* <div className="skills-card">
             <div className="skills-card-img">
               <BsFillBootstrapFill
                 style={{ height: "50px", width: "50px", margin: "auto" }}
@@ -97,9 +97,9 @@ const Skills = () => {
             <h3 className="skills-card-name" style={{ color: "#009cfe" }}>
               Bootstrap
             </h3>
-          </div>
+          </div> */}
 
-          <div className="skills-card">
+          {/* <div className="skills-card">
             <div className="skills-card-img">
               <BsGit
                 style={{ height: "50px", width: "50px", margin: "auto" }}
@@ -108,8 +108,8 @@ const Skills = () => {
             <h3 className="skills-card-name" style={{ color: "#009cfe" }}>
               Git
             </h3>
-          </div>
-          <div className="skills-card">
+          </div> */}
+          {/* <div className="skills-card">
             <div className="skills-card-img">
               <TbApi
                 style={{ height: "50px", width: "50px", margin: "auto" }}
@@ -118,7 +118,7 @@ const Skills = () => {
             <h3 className="skills-card-name" style={{ color: "#009cfe" }}>
               Rest APIs
             </h3>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

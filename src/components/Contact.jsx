@@ -12,7 +12,7 @@ const Contact = () => {
       <section className="nav-link contact" id="contact">
         <div className="nav-link-contact">
           <h2>
-            Contact <span>Me!</span>
+          <span> Contact </span>Me!
           </h2>
           <h4>
             Talent wins games, but teamwork and intelligence win championships.

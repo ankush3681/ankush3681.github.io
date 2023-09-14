@@ -4,7 +4,7 @@ import GitHubCalendar from "react-github-calendar";
 const Github = () => {
   return (
     <div id="githubs" className="max-width">
-      <div className="main-text">
+      <div className="github-main-text">
         <h2>
           <span>GitHub </span>Stats
         </h2>

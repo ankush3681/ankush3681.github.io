@@ -466,6 +466,16 @@ header.sticky {
   width:100%;
 } */
 
+.github-main-text {
+  text-align: center;
+}
+
+.github-main-text h2 {
+  font-size: var(--h2-font);
+  line-height: 1;
+  color:whitesmoke;
+}
+
 
 
 #githubs {
@@ -490,13 +500,22 @@ header.sticky {
 
 }
 
+/* Projects */
+
+.project-main-text {
+  text-align: center;
+}
+
+.project-main-text h2 {
+  font-size: var(--h2-font);
+  line-height: 1;
+  color:whitesmoke;
+}
+
 #projects{
   background-color: var(--bg-color);
   margin-bottom: 5px;
 }
-
-/* Projects */
-
 
 #nav-link-projects {
   display: grid;
@@ -609,6 +628,7 @@ header.sticky {
 .nav-link-contact h2 {
   font-size: var(--h2-font);
   line-height: 1;
+  color:white;
 }
 
 .nav-link-contact p {

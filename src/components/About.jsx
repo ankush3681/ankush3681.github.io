@@ -10,8 +10,8 @@ const About = () => {
           <img className="home-img" src={me} alt="home-image" />
         </div>
         <div  className="nav-link about">
-          <h1 style={{ fontSize: "55px", marginBottom: "2%", textAlign: "center" }}>
-            About <span>Me</span>
+          <h1 style={{ fontSize: "55px", marginBottom: "2%", textAlign: "center",color:"white" }}>
+          <span>About </span>Me
           </h1>
           <h2 id="user-detail-name-about">
             I'm <span>Ankush Kumar</span> from Champa,Chhattisgarh

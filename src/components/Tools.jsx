@@ -5,6 +5,7 @@ import { SiNetlify } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillCodeSandboxSquare } from "react-icons/ai";
 import { TbBrandVercel } from "react-icons/tb";
+import { BsGit } from "react-icons/bs";
 
 
 const Tools = () => {
@@ -76,6 +77,16 @@ const Tools = () => {
                         </div>
                         <h3 className="tools-card-name" style={{ color: "#009cfe" }}>
                             vercel
+                        </h3>
+                    </div>
+                    <div className="tools-card">
+                        <div className="tools-card-img">
+                            <BsGit
+                                style={{ height: "50px", width: "50px", margin: "auto" }}
+                            />
+                        </div>
+                        <h3 className="tools-card-name" style={{ color: "#009cfe" }}>
+                            Git
                         </h3>
                     </div>
                 </div>
