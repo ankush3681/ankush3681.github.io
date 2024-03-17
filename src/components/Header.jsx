@@ -69,7 +69,7 @@ const Header = () => {
                 download
                 id="resume-link-1"
                 className="nav-link resume"
-                onClick={()=>window.open("https://drive.google.com/file/d/1xsWeIoOuzGnCPDy94uHUa4PrMQKtj7mv/view?usp=drive_link")}
+                onClick={()=>window.open("https://drive.google.com/drive/u/0/folders/1wKcEIDFZ1qsUlWSfyy3fuaxExvXeChsI")}
               >
                 Resume
               </a>

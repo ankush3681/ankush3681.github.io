@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../Files/photo.JPG";
+import me from "../Files/ak.jpg";
 import CV from "../Files/Ankush-Kumar-Resume.pdf";
 
 const About = () => {
@@ -36,7 +36,7 @@ const About = () => {
               download
               target="_blank"
               id="resume-link-2"
-              onClick={()=>window.open("https://drive.google.com/file/d/1xsWeIoOuzGnCPDy94uHUa4PrMQKtj7mv/view?usp=drive_link")}
+              onClick={()=>window.open("https://drive.google.com/drive/u/0/folders/1wKcEIDFZ1qsUlWSfyy3fuaxExvXeChsI")}
 
             >
               <span>
