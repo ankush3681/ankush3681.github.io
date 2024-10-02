@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "org_name": "Chaincode Consulting LLP, Chandigarh",
+    "title": "Full Stack Developer",
+    "description": "Contributed significantly to the NFTtrace mobile app's admin dashboard by developing the Support and Offer modules for both frontend and backend. Integrated Firebase into the Sutr project to improve real-time data synchronization and authentication. Successfully resolved critical bugs in the Obortech project, enhancing system stability and performance through detailed debugging and optimization, driving overall project efficiency.",
+    "duration": "Apr 2024 - Present"
+  },
+  {
+    "id": 2,
+    "org_name": "Chaincode Consulting LLP, Chandigarh",
+    "title": "Full stack Trainee",
+    "description": "Developed the frontend for Wild Wheat Bakery's website, enhancing user experience and interface. Contributed to various frontend components of IRCTC Tejas-NfTtrace, including building a feedback module to boost user engagement and data collection, while resolving complex bugs for smooth functionality. Additionally, worked on optimizing ChainCode Consulting's website, improving performance and user interaction.",
+    "duration": "Jan 2024 - Mar 2024"
+  }
+]
+

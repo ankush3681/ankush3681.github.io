@@ -1,97 +1,23 @@
 import React from "react";
-import { useState } from "react";
-import CV from "../Files/Ankush-Kumar-Resume.pdf";
-import DropDown from "./Dropdown";
-import {AiOutlineHome} from "react-icons/ai";
 
 const Header = () => {
-  const [activeNav, setActiveNav] = useState("#");
-  const [selectedOption, setSelectedOption] = useState("");
-  const handleOptionSelect = (option) => {
-    setSelectedOption(option);
-  };
   return (
-    <>
-      <header id="nav-menu">
-        <a href="#" className="logo" onClick={() => setActiveNav("#")}>
-          {" "}
-          Ankush <span> Kumar </span>
-        </a>
-        <ul className="navlist">
-          <li>
-            <a
-              href="#home"
-              className="active"
-              onClick={() => setActiveNav("#home")}
-            >
-              {" "}
-              Home
-            </a>
-          </li>
-          <li>
-            <a href="#about" onClick={() => setActiveNav("#about")}> About</a>
-          </li>
-          <li>
-            <a href="#skills" onClick={() => setActiveNav("#skills")}>
-              {" "}
-              Skills
-            </a>
-          </li>
-          <li>
-            <a href="#tools" onClick={() => setActiveNav("#tools")}>
-              {" "}
-              Tools
-            </a>
-          </li>
-          <li>
-            <a href="#projects" onClick={() => setActiveNav("#projects")}>
-              {" "}
-              Projects
-            </a>
-          </li>
-          <li>
-            <a href="#githubs" onClick={() => setActiveNav("#githubs")}>
-              {" "}
-              GitHub
-            </a>
-          </li>
-          <li>
-            <a href="#contact" onClick={() => setActiveNav("#contact")}>
-              {" "}
-              Contact
-            </a>
-          </li>
-          <li>
-            <button id="resume-button-1">
-              <a
-                href={CV}
-                target="_blank"
-                download
-                id="resume-link-1"
-                className="nav-link resume"
-                onClick={()=>window.open("https://drive.google.com/drive/u/0/folders/1wKcEIDFZ1qsUlWSfyy3fuaxExvXeChsI")}
-              >
-                Resume
-              </a>
-            </button>
-          </li>
-        </ul>
-        <div id="menu-icon">
-          <DropDown
-            options={[
-              <a href="#home"><AiOutlineHome/></a>,
-              <a href="#about">About</a>,
-              <a href="#skills">Skills</a>,
-              <a href="#tools">Tools</a>,
-              <a href="#projects">Projects</a>,
-              <a href="#githubs">GitHub</a>,
-              <a href="#contact">Contact</a>,
-            ]}
-            onSelect={handleOptionSelect}
-          />
-        </div>
-      </header>
-    </>
+    <section className="bg-white dark:bg-gray-900" id="home">
+      <div className="py-8 mx-auto max-w-screen-xl text-center lg:py-16">
+        <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+         Ankush Kumar
+        </h1>
+        <h2 className="mb-4 text-2xl font-extrabold tracking-tight leading-none text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
+          Full Stack Developer
+        </h2>
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 dark:text-gray-400">
+          I am a Full Stack Developer who enjoys solving problems and working on
+          all parts of a project. I adapt well to new environments and am always
+          eager to learn new skills. I look forward to contributing to
+          meaningful projects and working with great teams.
+        </p>
+      </div>
+    </section>
   );
 };
 
