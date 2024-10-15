@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Weather App",
-    "description": "Created a Weather web app where you can search for weather data of any Indian city and also use your current GPS location to display weather information.",
+    "description": "Created a Weather web app where you can search for weather data of any Indian city and also use your current GPS location to display weather information. Built with React, Javascript, Tailwind.",
     "image": "images/weather.png",
     "github": "https://github.com/ankush3681/cloudwatch",
     "live": "https://weather-app.sabtech.cloud/"
