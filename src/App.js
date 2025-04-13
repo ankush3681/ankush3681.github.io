@@ -7,6 +7,7 @@ import Projects from "./components//Projects";
 import Skills from "./components/skills/Skills";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Contact from "./components/Contact";
 
 function App() {
   useEffect(() => {
@@ -50,6 +51,13 @@ function App() {
           data-aos-duration="1500"
         >
           <Projects />
+        </div>
+        <div
+          className="mt-12 lg:mt-20"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
+          <Contact />
         </div>
       </div>
       <Footer />

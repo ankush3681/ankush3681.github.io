@@ -1,13 +1,20 @@
 [
   {
     "id": 1,
-    "org_name": "Chaincode Consulting LLP, Chandigarh",
-    "title": "Full Stack Developer",
-    "description": "Contributed significantly to the NFTtrace mobile app's admin dashboard by developing the Support and Offer modules for both frontend and backend. Integrated Firebase into the Sutr project to improve real-time data synchronization and authentication. Successfully resolved critical bugs in the Obortech project, enhancing system stability and performance through detailed debugging and optimization, driving overall project efficiency.",
-    "duration": "Apr 2024 - Present"
+    "org_name": "Genboot Private Ltd., Mohali",
+    "title": "SDE-1",
+    "description": "Worked as a Full Stack Developer on Klaviss, a US-based real estate platform, where I directly interacted with the client, developed key features, implemented an LLM-powered prompt system for PDF date extraction, and resolved major issues. I also led the frontend setup of GenHR, an HRMS tool, building reusable components and scalable modules from scratch.",
+    "duration": "Oct 2024 - Present"
   },
   {
     "id": 2,
+    "org_name": "Chaincode Consulting LLP, Chandigarh",
+    "title": "Full Stack Developer",
+    "description": "Contributed significantly to the NFTtrace mobile app's admin dashboard by developing the Support and Offer modules for both frontend and backend. Integrated Firebase into the Sutr project to improve real-time data synchronization and authentication. Successfully resolved critical bugs in the Obortech project, enhancing system stability and performance through detailed debugging and optimization, driving overall project efficiency.",
+    "duration": "Apr 2024 - Oct 2024"
+  },
+  {
+    "id": 3,
     "org_name": "Chaincode Consulting LLP, Chandigarh",
     "title": "Full stack Trainee",
     "description": "Developed the frontend for Wild Wheat Bakery's website, enhancing user experience and interface. Contributed to various frontend components of IRCTC Tejas-NfTtrace, including building a feedback module to boost user engagement and data collection, while resolving complex bugs for smooth functionality. Additionally, worked on optimizing ChainCode Consulting's website, improving performance and user interaction.",

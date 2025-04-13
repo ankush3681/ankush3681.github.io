@@ -30,6 +30,7 @@ const Navbar = () => {
 
   const handleSetActiveLink = (hash) => {
     window.location.hash = hash;
+    console.log("uuuu",hash)
     setActiveLink(hash);
     if (isOpen) toggleMenu();
   };
@@ -54,12 +55,12 @@ const Navbar = () => {
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <a
-              href="assets\Ankush-Kumar-Resume.pdf"
+              href="assets\Ankush_Kumar_Resume.pdf"
               className="text-white bg-[#0072bb] hover:bg-[#005082] focus:ring-4 focus:outline-none focus:ring-[#0d41e1] font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 flex gap-4 cursor-pointer"
               download
               smooth="true"
             >
-              Resumex
+              Resume
               <Icon.Download size="20" />
             </a>
             <button 
@@ -129,6 +130,15 @@ const Navbar = () => {
                   className={getLinkClass("#projects")}
                 >
                   Projects
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  onClick={() => handleSetActiveLink("#contact")}
+                  className={getLinkClass("#contact")}
+                >
+                  Contact
                 </a>
               </li>
             </ul>
