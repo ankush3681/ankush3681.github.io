@@ -53,5 +53,25 @@
     "id": 12,
     "title": "Redux",
     "image": "images/skill-icons/redux.svg"
+  },
+  {
+    "id": 13,
+    "title": "Tailwind",
+    "image": "images/skill-icons/tailwind.svg"
+  },
+  {
+    "id": 14,
+    "title": "SQL",
+    "image": "images/skill-icons/sql.svg"
+  },
+  {
+    "id": 15,
+    "title": "Postgresql",
+    "image": "images/skill-icons/postgresql.svg"
+  },
+  {
+    "id": 16,
+    "title": "materialUI",
+    "image": "images/skill-icons/material.svg"
   }
 ]

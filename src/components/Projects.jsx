@@ -1,82 +1,82 @@
 import React from "react";
 import data from "../data/projects.json";
 
-const Projects = () => {
+const Projects = ({ darkMode }) => {
   return (
-    <>
-      <div className="w-full" id="projects">
-        <h2 className="text-center text-black text-4xl md:text-4xl lg:text-6xl my-0 lg:my-10 py-6 lg:py-10 w-full">
-          Projects
-        </h2>
-      </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 m-auto w-full max-w-screen-xl">
+    <div
+      id="projects"
+      className={`w-full py-44 ${
+        darkMode
+          ? "bg-gray-900 text-white"
+          : "bg-gradient-to-b from-gray-50 to-white text-black"
+      }`}
+    >
+      <h2 className="text-center text-4xl lg:text-6xl font-extrabold mb-12 tracking-tight">
+        Projects
+      </h2>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-6 md:px-10 max-w-screen-xl mx-auto">
         {data.map((el) => (
           <div
-            className="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 overflow-hidden flex flex-col"
+            className="relative backdrop-blur-lg bg-white/30 dark:bg-white/10 border border-gray-200 dark:border-gray-700 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col overflow-hidden"
             key={el.id}
           >
             <img
-              className="w-full h-48 object-cover"
+              className="w-full h-48 object-cover rounded-t-3xl"
               src={el.image}
               alt={el.title}
             />
 
-            <div
-              className="p-5 flex flex-col flex-grow"
-              style={{ minHeight: "300px" }}
-            >
+            <div className="p-6 flex flex-col flex-grow">
               <div className="flex-grow">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
                   {el.title}
                 </h5>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed mb-4">
                   {el.description}
                 </p>
               </div>
-              <div className="flex gap-2 mt-4 justify-end">
+              <div className="flex gap-4 mt-auto">
                 <a
                   href={el.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center px-3 py-2 text-sm font-medium text-white bg-[#0072bb] hover:bg-[#005082] rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 w-1/2"
+                  className="flex items-center justify-center gap-2 px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-gray-700 to-gray-900 hover:from-gray-800 hover:to-black rounded-full shadow-md transition-all w-1/2"
                 >
-                  Code
+                  <span>Code</span>
                   <svg
-                    className="rtl:rotate-180 w-4 h-4 ml-2"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-4 h-4"
                     fill="none"
-                    viewBox="0 0 14 10"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    viewBox="0 0 24 24"
                   >
                     <path
-                      stroke="currentColor"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
                     />
                   </svg>
                 </a>
+
                 <a
                   href={el.live}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center px-3 py-2 text-sm font-medium text-white bg-[#0072bb] hover:bg-[#005082] rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 w-1/2"
+                  className="flex items-center justify-center gap-2 px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 rounded-full shadow-md transition-all w-1/2"
                 >
-                  Demo
+                  <span>Demo</span>
                   <svg
-                    className="rtl:rotate-180 w-4 h-4 ml-2"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-4 h-4"
                     fill="none"
-                    viewBox="0 0 14 10"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    viewBox="0 0 24 24"
                   >
                     <path
-                      stroke="currentColor"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
                     />
                   </svg>
                 </a>
@@ -85,7 +85,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

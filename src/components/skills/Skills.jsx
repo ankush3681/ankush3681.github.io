@@ -5,22 +5,24 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import toolsData from "../../data/tools.json";
 
-const Skills = () => {
+const Skills = ({ darkMode }) => {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
 
-  const firstRowSkills = skillData.slice(0, 5);
-  const secondRowSkills = skillData.slice(5, 9);
-  const thirdRowSkills = skillData.slice(9, 12);
+  const firstRowSkills = skillData.slice(0, 6);
+  const secondRowSkills = skillData.slice(6, 11);
+  const thirdRowSkills = skillData.slice(11 , 15);
 
   return (
     <div
       data-aos="fade-up"
-      data-aos-duration="1000"
+      data-aos-duration="1500"
       id="skills"
-      className="skills-section text-black text-6xl my-10 py-10 w-full"
+      className={`skills-section text-6xl py-36 w-full ${
+        darkMode ? "bg-gray-900 text-white" : "bg-white text-black"
+      }`}
     >
       <div className="skills-inner-container">
         <h2 className="text-center my-10">Skills</h2>
@@ -28,7 +30,11 @@ const Skills = () => {
         <div className="skills-container first-row">
           {firstRowSkills.map((item) => (
             <div
-              className="tools rounded-lg border-2 border-[#59b0bb] shadow-[3px_3px_5px_2px_#59b0bb]"
+              className={`tools rounded-lg border-2 shadow-[3px_3px_5px_2px] ${
+                darkMode
+                  ? "border-[#81d4fa] shadow-[#81d4fa]"
+                  : "border-[#59b0bb] shadow-[#59b0bb]"
+              }`}
               key={item.id}
             >
               <img
@@ -44,7 +50,11 @@ const Skills = () => {
         <div className="skills-container second-row">
           {secondRowSkills.map((item) => (
             <div
-              className="tools rounded-lg border-2 border-[#59b0bb] shadow-[3px_3px_5px_2px_#59b0bb]"
+              className={`tools rounded-lg border-2 shadow-[3px_3px_5px_2px] ${
+                darkMode
+                  ? "border-[#81d4fa] shadow-[#81d4fa]"
+                  : "border-[#59b0bb] shadow-[#59b0bb]"
+              }`}
               key={item.id}
             >
               <img
@@ -60,7 +70,11 @@ const Skills = () => {
         <div className="skills-container third-row">
           {thirdRowSkills.map((item) => (
             <div
-              className="tools rounded-lg border-2 border-[#59b0bb] shadow-[3px_3px_5px_2px_#59b0bb]"
+              className={`tools rounded-lg border-2 shadow-[3px_3px_5px_2px] ${
+                darkMode
+                  ? "border-[#81d4fa] shadow-[#81d4fa]"
+                  : "border-[#59b0bb] shadow-[#59b0bb]"
+              }`}
               key={item.id}
             >
               <img
@@ -79,7 +93,11 @@ const Skills = () => {
         <div className="skills-container first-row">
           {toolsData.map((item) => (
             <div
-              className="tools rounded-lg border-2 border-[#59b0bb] shadow-[3px_3px_5px_2px_#59b0bb]"
+              className={`tools rounded-lg border-2 shadow-[3px_3px_5px_2px] ${
+                darkMode
+                  ? "border-[#81d4fa] shadow-[#81d4fa]"
+                  : "border-[#59b0bb] shadow-[#59b0bb]"
+              }`}
               key={item.id}
             >
               <img
