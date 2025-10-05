@@ -3,7 +3,7 @@
     "id": 1,
     "org_name": "Genboot Private Ltd., Mohali",
     "title": "SDE-1",
-    "description": "Worked as a Full Stack Developer on Klaviss, a US-based real estate platform, where I directly interacted with the client, developed key features, implemented an LLM-powered prompt system for PDF data extraction, and resolved major issues. I also led the frontend setup of GenHR, an HRMS tool, building reusable components and scalable modules from scratch.",
+    "description": "orked as a Full Stack Developer, contributing to multiple projects across frontend, backend, and client-facing roles. I developed the complete Admin Panel for Sydkik, implementing user management, subscription tracking, escalation handling with real-time notifications, event logs, and customer support integration with HelpScout. For Klaviss, a US-based real estate platform, I optimized property listing flows, integrated LLMs such as Gemini and OpenAI for automated PDF data extraction, created custom prompts, and resolved critical issues to enhance performance and user experience. Additionally, I led the frontend development of GenHR, an internal HRMS tool, using React.js and Tailwind CSS, while implementing Firebase Authentication, building secure RESTful APIs with Node.js, leveraging Redis for performance optimization, and applying JWT-based role access control. Throughout these projects, I focused on building scalable, reusable solutions while adhering to Agile methodologies to ensure timely and efficient delivery.",
     "duration": "Oct 2024 - Present"
   },
   {

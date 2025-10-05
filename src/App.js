@@ -50,7 +50,7 @@ function App() {
           <div className="w-full lg:w-5/12 flex justify-center">
             <div className="relative group overflow-hidden rounded-3xl shadow-lg bg-transparent dark:bg-transparent max-w-sm w-full h-96">
               <img
-                src="images/mine.jpg"
+                src="images/mine.png"
                 alt="Profile"
                 loading="lazy"
                 className="w-full h-full object-cover transition-transform duration-500 transform scale-105 group-hover:scale-110"
