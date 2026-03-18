@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "title": "Weather App",
-    "description": "Created a Weather web app where you can search for weather data of any Indian city and also use your current GPS location to display weather information. Built with React, Javascript, Tailwind.",
-    "image": "images/weather.png",
-    "github": "https://github.com/ankush3681/cloudwatch",
-    "live": "https://weather-app.sabtech.cloud/"
+    "title": "MediGreen",
+    "description": "A clone of the Tata 1mg website, specializing in healthcare and pharmaceutical products. Built using HTML, CSS, JavaScript, React, Redux, Chakra UI, Express, MongoDB, and Node.js.",
+    "image": "images/1mg.png",
+    "github": "https://github.com/ankush3681/medi-green-health",
+    "live": "https://medigreenhealth.netlify.app/"
   },
   {
     "id": 2,
@@ -17,6 +17,14 @@
   },
   {
     "id": 3,
+    "title": "Groomskart",
+    "description": "A clone of the Myntra website, focusing on various fashion and style products. This individual project was built using HTML, CSS, and JavaScript.",
+    "image": "images/myntra.png",
+    "github": "https://github.com/ankush3681/Groomskart",
+    "live": "https://brilliant-gnome-813844.netlify.app/index.html"
+  },
+  {
+    "id": 4,
     "title": "My Glow",
     "description": "A clone of the Sugar Cosmetic website, focusing on various cosmetic products. This collaborative project involved 5 members and was built using HTML, CSS, JavaScript, React, Redux, and Chakra UI.",
     "image": "images/myglow.png",
@@ -24,19 +32,11 @@
     "live": "https://my-glow-ankush3681.vercel.app/"
   },
   {
-    "id": 4,
-    "title": "MediGreen",
-    "description": "A clone of the Tata 1mg website, specializing in healthcare and pharmaceutical products. Built using HTML, CSS, JavaScript, React, Redux, Chakra UI, Express, MongoDB, and Node.js.",
-    "image": "images/1mg.png",
-    "github": "https://github.com/ankush3681/medi-green-health",
-    "live": "https://medigreenhealth.netlify.app/"
-  },
-  {
     "id": 5,
-    "title": "Groomskart",
-    "description": "A clone of the Myntra website, focusing on various fashion and style products. This individual project was built using HTML, CSS, and JavaScript.",
-    "image": "images/myntra.png",
-    "github": "https://github.com/ankush3681/Groomskart",
-    "live": "https://brilliant-gnome-813844.netlify.app/index.html"
+    "title": "Weather App",
+    "description": "Created a Weather web app where you can search for weather data of any Indian city and also use your current GPS location to display weather information. Built with React, Javascript, Tailwind.",
+    "image": "images/weather.png",
+    "github": "https://github.com/ankush3681/cloudwatch",
+    "live": "https://weather-app.sabtech.cloud/"
   }
 ]

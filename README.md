@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Ankush Kumar — Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A single-page portfolio built with Create React App, Tailwind CSS, and Flowbite that highlights projects, skills, and the contact form of a Full Stack Developer.
 
-## Available Scripts
+## About Ankush Kumar
+- **Title:** Full Stack Developer
+- **Location:** Champa, Chhattisgarh, India
+- **Bio:** Problem solver who thrives on working on every layer of a project, gaining new skills, and collaborating with teams on meaningful products.
+- **Reach out:** `ankushkumar83623@gmail.com`, `+91-8878231626`, or DM through [GitHub](https://github.com/ankush3681), [LinkedIn](https://www.linkedin.com/in/ankush-kumar-227058171/), or WhatsApp (`https://wa.me/8878231626`).
 
-In the project directory, you can run:
+## Getting started
+### Prerequisites
+- Node.js **18+** (the app uses React 18 and the latest tooling).
+- npm (the project ships with a `package-lock.json` so install from that.)
 
-### `npm start`
+### Install dependencies
+```bash
+npm install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Run the app locally
+```bash
+npm start
+```
+- Starts the development server (powered by `react-scripts start`).
+- Visit `http://localhost:3000` in your browser; the page reloads automatically when you edit files.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Build & deploy
+```bash
+npm run build
+npm run deploy
+```
+- `build` produces an optimized `build/` folder ready for production.
+- `deploy` pushes the build to `gh-pages` (see the `homepage` field `https://ankush3681.github.io`).
 
-### `npm test`
+### Test suite
+```bash
+npm test
+```
+- Runs the CRA test runner in watch mode.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project structure highlights
+- `src/components` contains sections such as `Header` (hero message), `Contact` (EmailJS-powered form with client-side validation), and `Footer` (social links).
+- `src/Email/Email.js` wraps EmailJS configuration for the contact form.
+- Styling relies on Tailwind utility classes plus Flowbite components and data attributes (look for `data-aos` hooks for scroll animations).
 
-### `npm run build`
+## Environment variables
+The contact form depends on EmailJS credentials. Create a `.env.local` or `.env` file (they are gitignored) with the keys that match the placeholders you see inside `src/Email/Email.js` so the form can send messages.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Quick links
+- **Resume:** `assets/Ankush_Kumar_Resume.pdf`
+- **Portfolio homepage:** `https://ankush3681.github.io`

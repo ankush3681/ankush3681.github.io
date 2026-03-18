@@ -6,23 +6,6 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeLink, setActiveLink] = useState("#home");
 
-  // useEffect(() => {
-  //   if (!window.location.hash) {
-  //     setActiveLink("#home");
-  //   } else {
-  //     setActiveLink(window.location.hash);
-  //   }
-
-  //   const handleHashChange = () => {
-  //     setActiveLink(window.location.hash || "#home");
-  //   };
-
-  //   window.addEventListener("hashchange", handleHashChange);
-
-  //   return () => {
-  //     window.removeEventListener("hashchange", handleHashChange);
-  //   };
-  // }, []);
   useEffect(() => {
     const hash = window.location.hash || "#home";
     setActiveLink(hash);
@@ -38,7 +21,6 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-  // const toggleMenu = () => setIsOpen((prev) => !prev);
 
   const handleSetActiveLink = (hash) => {
     window.location.hash = hash;
@@ -84,7 +66,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
 
           <a
             href="assets\Ankush_Kumar_Resume.pdf"
-            className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-medium px-4 py-1.5 rounded-full flex items-center gap-2 shadow-md transform transition duration-300 hover:scale-105 hover:from-blue-500 hover:to-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-300 text-sm"
+            className="bg-gradient-to-r from-[#3056D3] to-[#13C296] text-white font-medium px-4 py-1.5 rounded-full flex items-center gap-2 shadow-md transform transition duration-300 hover:scale-105 hover:from-blue-500 hover:to-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-300 text-sm"
             download
             smooth="true"
           >
@@ -138,7 +120,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
                     {section.charAt(0).toUpperCase() + section.slice(1)}
                   </a>
                 </li>
-              )
+              ),
             )}
           </ul>
         </div>

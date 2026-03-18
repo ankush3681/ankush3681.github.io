@@ -63,7 +63,7 @@ const Projects = ({ darkMode }) => {
                   href={el.live}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 rounded-full shadow-md transition-all w-1/2"
+                  className="flex items-center justify-center gap-2 px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-[#3056D3] to-[#13C296] hover:from-blue-700 hover:to-indigo-700 rounded-full shadow-md transition-all w-1/2"
                 >
                   <span>Demo</span>
                   <svg

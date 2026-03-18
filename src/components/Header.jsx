@@ -9,7 +9,7 @@ const Header = ({ darkMode }) => {
       id="home"
     >
       <div className="max-w-3xl px-4 text-center">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-[#3056D3] to-[#13C296]">
           Ankush Kumar
         </h1>
         <h2
